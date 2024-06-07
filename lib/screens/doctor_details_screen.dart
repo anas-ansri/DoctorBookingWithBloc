@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:models/models.dart';
-
 import '../repositories/doctor_repository.dart';
 import '../shared/utils/time_of_day_extensions.dart';
 import '../shared/widgets/buttons/app_icon_button.dart';

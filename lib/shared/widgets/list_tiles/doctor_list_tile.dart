@@ -40,7 +40,7 @@ class DoctorListTile extends StatelessWidget {
       subtitle: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 4.0),
+          const SizedBox(height: 4.0),
           Text(
             doctor.category.name,
             style: textTheme.bodyMedium!.copyWith(
@@ -50,8 +50,8 @@ class DoctorListTile extends StatelessWidget {
           const SizedBox(height: 8.0),
           Row(
             children: [
-              Icon(Icons.star,
-                  color: const Color.fromRGBO(255, 204, 128, 1), size: 16),
+              const Icon(Icons.star,
+                  color: Color.fromRGBO(255, 204, 128, 1), size: 16),
               const SizedBox(width: 4.0),
               Text(
                 doctor.rating.toString(),
